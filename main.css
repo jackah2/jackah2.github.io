@@ -1,0 +1,13 @@
+.container-narrow {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 900px;
+}
+.jumbotron {
+    margin: 60px;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 60px;
+    line-height: 1.5;
+}
