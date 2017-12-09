@@ -48,6 +48,7 @@ p.lead {
     border: 5px solid white;
     border-radius: 5%;
     width: 35%;
+    min-width: 200px;
     height: auto;
 }
 a.icon:link
