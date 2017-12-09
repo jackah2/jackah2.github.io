@@ -1,13 +1,73 @@
+.main-background {
+    /* background: rgb(200, 200, 200); */
+    background: rgb(124, 184, 253);
+}
 .container-narrow {
     margin: 0 auto;
-    padding: 10px;
-    max-width: 900px;
+    /* padding: 10px; */
+    max-width: 1000px;
+    object-fit: cover;
+}
+.icons {
+    margin: 0 auto;
+    display: table;
+    font-size: 40px;
+    /* color: rgb(190, 51, 51); */
+    color: white;
+}
+.bullet {
+    color: rgb(233, 136, 57);
 }
 .jumbotron {
-    margin: 60px;
+    margin: 20px 60px 20px 60px;
+    padding: 2rem 1rem;
     text-align: center;
+    /* background: rgb(226, 60, 60); */
+    background: rgb(241, 154, 78);
+    /* background: #e9ecef; */
+    color: white;
+
+    /* Shadow */
+    -webkit-box-shadow: 5px 5px 30px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 30px -2px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 30px -2px rgba(0,0,0,0.75);
+    
 }
 .jumbotron h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.5;
+}
+.lead {
+    font-size: 20px;
+}
+p.lead {
+    margin: 0;
+}
+.me-picture {
+    /* border: 5px solid rgb(190, 51, 51); */
+    border: 5px solid white;
+    border-radius: 5%;
+    width: 35%;
+    height: auto;
+}
+a.icon:link
+{
+   color: inherit;
+   text-decoration: none;
+}
+a.icon:visited
+{
+   color: inherit;
+   text-decoration: none;
+}
+a.icon:hover
+{
+   /* color: rgb(235, 62, 62); */
+   color: gray;
+   text-decoration: none;
+}
+a.icon:active
+{
+   color: inherit;
+   text-decoration: none;
 }
