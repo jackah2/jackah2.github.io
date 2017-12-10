@@ -74,7 +74,7 @@ a.icon:visited
 a.icon:hover
 {
    /* color: rgb(235, 62, 62); */
-   color: gray;
+   color: rgb(221, 221, 221);
    text-decoration: none;
 }
 a.icon:active
