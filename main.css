@@ -8,15 +8,15 @@
     max-width: 1000px;
     object-fit: cover;
 }
-.icons {
-    margin: 0 auto;
-    display: table;
-    font-size: 40px;
-    /* color: rgb(190, 51, 51); */
+.header {
+    margin: 15px 60px 5px 60px;
+}
+.nav-link {
     color: white;
 }
-.bullet {
-    color: rgb(233, 136, 57);
+.nav-link.active {
+    background-color: white !important;
+    color: #007bff !important;
 }
 .jumbotron {
     margin: 20px 60px 20px 60px;
@@ -37,12 +37,6 @@
     font-size: 50px;
     line-height: 1.5;
 }
-.lead {
-    font-size: 20px;
-}
-p.lead {
-    margin: 0;
-}
 .me-picture {
     /* border: 5px solid rgb(190, 51, 51); */
     border: 5px solid white;
@@ -50,6 +44,22 @@ p.lead {
     width: 35%;
     min-width: 200px;
     height: auto;
+}
+.lead {
+    font-size: 20px;
+}
+p.lead {
+    margin: 0;
+}
+.icons {
+    margin: 0 auto;
+    display: table;
+    font-size: 40px;
+    /* color: rgb(190, 51, 51); */
+    color: white;
+}
+.bullet {
+    color: rgb(233, 136, 57);
 }
 a.icon:link
 {
