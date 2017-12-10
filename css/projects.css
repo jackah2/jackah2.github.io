@@ -1,0 +1,31 @@
+.jumbotron h1 {
+    font-size: 50px;
+    line-height: 1;
+}
+.hellolang-picture {
+    margin: 5px 0 0 0;
+    padding: 0;
+    border: 5px solid rgb(233, 136, 57);
+    border-radius: 2%;
+    width: 35%;
+    min-width: 200px;
+    height: 35%;
+}
+.demo-picture {
+    margin: 5px 0 0 0;
+    padding: 0;
+    border: 5px solid rgb(233, 136, 57);
+    border-radius: 2%;
+    width: 70%;
+    min-width: 200px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 2em;
+    padding: 0;
+}
+a {
+    color: white;
+}
