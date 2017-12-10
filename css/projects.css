@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
 .jumbotron h1 {
     font-size: 50px;
     line-height: 1;
@@ -8,7 +12,7 @@
     border: 5px solid rgb(233, 136, 57);
     border-radius: 2%;
     width: 35%;
-    min-width: 200px;
+    min-width: 160px;
     height: 35%;
 }
 .demo-picture {
@@ -17,7 +21,7 @@
     border: 5px solid rgb(233, 136, 57);
     border-radius: 2%;
     width: 70%;
-    min-width: 200px;
+    min-width: 160px;
 }
 hr {
     display: block;

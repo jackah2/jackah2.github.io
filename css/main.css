@@ -6,6 +6,10 @@
     max-width: 1000px;
     object-fit: cover;
 }
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
 .header {
     margin: 15px 60px 5px 60px;
 }
@@ -41,7 +45,7 @@
     border: 5px solid white;
     border-radius: 5%;
     width: 35%;
-    min-width: 200px;
+    min-width: 160px;
     height: auto;
 }
 .lead {
