@@ -1,10 +1,8 @@
 .main-background {
-    /* background: rgb(200, 200, 200); */
     background: rgb(124, 184, 253);
 }
 .container-narrow {
     margin: 0 auto;
-    /* padding: 10px; */
     max-width: 1000px;
     object-fit: cover;
 }
@@ -17,14 +15,17 @@
 .nav-link.active {
     background-color: white !important;
     color: #007bff !important;
+
+    /* Shadow */
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .jumbotron {
     margin: 20px 60px 20px 60px;
     padding: 2rem 1rem;
     text-align: center;
-    /* background: rgb(226, 60, 60); */
     background: rgb(241, 154, 78);
-    /* background: #e9ecef; */
     color: white;
 
     /* Shadow */
@@ -38,7 +39,6 @@
     line-height: 1.5;
 }
 .me-picture {
-    /* border: 5px solid rgb(190, 51, 51); */
     border: 5px solid white;
     border-radius: 5%;
     width: 35%;
@@ -61,24 +61,19 @@ p.lead {
 .bullet {
     color: rgb(233, 136, 57);
 }
-a.icon:link
-{
+a.icon:link {
    color: inherit;
    text-decoration: none;
 }
-a.icon:visited
-{
+a.icon:visited {
    color: inherit;
    text-decoration: none;
 }
-a.icon:hover
-{
-   /* color: rgb(235, 62, 62); */
+a.icon:hover {
    color: rgb(221, 221, 221);
    text-decoration: none;
 }
-a.icon:active
-{
+a.icon:active {
    color: inherit;
    text-decoration: none;
 }
