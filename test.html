@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110945998-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110945998-1');
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    <title>Jack Henhapl's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="author" content="Jack Henhapl">
+    <meta name="Description" content="Jack Henhapl's website.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+</head>
+<body>
+
+    <canvas id="myChart"></canvas>
+
+<!-- <script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        datasets: [{
+            label: "My First dataset",
+            backgroundColor: 'rgb(66, 134, 244)',
+            borderColor: 'rgb(45, 114, 226)',
+            data: [0, 10, 5, 2, 20, 30, 45],
+        }/*,
+        {
+            label: "My second dataset",
+            backgroundColor: 'rgb(255, 50, 10)',
+            borderColor: 'rgb(255, 200, 80)',
+            data: [10, 0, 4, 7, 40, 30, 45],
+        }*/]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+</script> -->
+
+<script>
+new Chart(document.getElementById("myChart"),{
+    "type":"bar",
+    "data":{
+        "labels":[
+            "test 1",
+            "test 2",
+            "test 3",
+            "test 4",
+            "test 5",
+            "test 6",
+            "test 7",
+        ],
+        "datasets":[
+            {
+                "label":"Test Dataset",
+                "data":[65,59,80,81,56,55,40],
+                "fill":false,
+                "backgroundColor":[
+                    "rgba(255, 99, 132, 0.2)",
+                    "rgba(255, 159, 64, 0.2)",
+                    "rgba(255, 205, 86, 0.2)",
+                    "rgba(75, 192, 192, 0.2)",
+                    "rgba(54, 162, 235, 0.2)",
+                    "rgba(153, 102, 255, 0.2)",
+                    "rgba(201, 203, 207, 0.2)"
+                ],
+                "borderColor":["rgb(255, 99, 132)",
+                    "rgb(255, 159, 64)",
+                    "rgb(255, 205, 86)",
+                    "rgb(75, 192, 192)",
+                    "rgb(54, 162, 235)",
+                    "rgb(153, 102, 255)",
+                    "rgb(201, 203, 207)"],
+                "borderWidth":1
+            }
+        ]
+    },
+    "options":{
+        "scales":{
+            "yAxes":[
+                {
+                    "ticks":{
+                        "beginAtZero":true
+                    }
+                }
+            ]
+        }
+    }
+});
+</script>
+</body>
+</html>
