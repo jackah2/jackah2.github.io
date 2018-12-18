@@ -29,3 +29,20 @@ hr {
 a {
     color: white;
 }
+
+@media only screen and (max-width: 1000px) {
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+    .demo-picture {
+        width: 100%;
+    }
+    .hellolang-picture {
+        width: 70%;
+        height: 70%;
+        max-width: 400px;
+    }
+    hr {
+        margin: 1em;
+    }
+}

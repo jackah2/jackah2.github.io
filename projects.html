@@ -41,43 +41,106 @@
             </nav>
         </div>
 
-        <!-- HelloLang -->
-        <div class="jumbotron">
-            <h1>HelloLang <a href="https://github.com/CS196Illinois/Hello_Lang" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a></h1>
-                <a href="images/HelloLangPic-big.png"><img src="images/HelloLangPic-small.png" alt="HelloLang Demo" class="hellolang-picture picture-shadow"></a>
-            <p class="lead">
-                HelloLang is an Android app created to help people learn a new language.
-                It's focused around students having access to native speakers via the app.
-                The app is written in Java. I created the bulk of the front end as 
-                well as helped integrate key parts of the app such as app-to-app calling.
-            </p>
-        </div>
+        <!-- MCIE -->
+        <a id="MCIE">
+            <div class="jumbotron">
+                <h1>
+                    <a href="https://jackah2.github.io/mcie-viz/" target="_blank">Minecraft Interest Engine </a>
+                    <a href="https://github.com/jackah2/mcie-viz" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a>
+                </h1>
+                <a href="images/MCIE-big.png"><img src="images/MCIE-big.png" alt="MCIE Demo" class="demo-picture picture-shadow"></a>
+                <p class="lead">
+                    Lead by <a href="https://education.illinois.edu/faculty/hclane" target="blank_"><b>Associate Professor Chad Lane</b></a>,
+                    <a href="https://jackah2.github.io/mcie-viz/" target="_blank"><b>The Minecraft Interest Engine (MCIE)</b></a> is a system that aims
+                    to use a session of Minecraft play time to predict up to five areas of STEM the player is interested in.
+                    The analysis of each session is broken down by the duration of the session; how many blocks were traveled, placed, and broken;
+                    and the amount of commands that were executed by the player.
+                    The engine looks at which blocks were interacted with in order to determine which fields of STEM the player is most likely interested in.
+                    The backend - which handles the analyzation of the data - is written in Java.
+                    All of the data is stored in a MySQL database and is accessed by the backend.
+                    I then used <a href="https://aws.amazon.com/lambda/" target="blank_"><b>Amazon Web Services</b></a> to deliver the analysed data to the front end.
+                    I used <a href="https://nodejs.org/en/" target="blank_"><b>Node.js</b></a> and
+                    <a href="https://reactjs.org/" target="blank_"><b>React</b></a> to create the front end.
+                    For the graphs and charts, I used a library called <a href="https://www.chartjs.org/" target="blank_"><b>Chart.js</b></a>.
+
+                </p>
+            </div>
+         </a>
 
         <hr>
 
-        <!-- Maze Solver -->
-        <div class="jumbotron">
-            <h1>Maze Solver <a href="https://github.com/jackah2/MazeSolver" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a></h1>
-                <a href="images/MazeSolverPic-big.png"><img src="images/MazeSolverPic-small.png" alt="Maze Solver Demo" class="demo-picture picture-shadow"></a>
+        <!-- WHIMC -->
+        <a id = "WHIMC">
+            <div class="jumbotron">
+                <h1>
+                    <a href="http://whimc.education.illinois.edu/" target="blank_">What-if Hypothetical Implementations in Minecraft </a>
+                    <a href="https://github.com/hclane/WHIMC/tree/WHIMC-API" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a>
+                </h1>
+                <a href="images/WHIMCPic-big.png" target="blank_"><img src="images/WHIMCPic-big.png" alt="WHIMC Demo" class="demo-picture picture-shadow"></a>
                 <p class="lead">
-                Maze Solver is a Java application that displays a maze being solved using different solving algorithms.
-                This program makes use of two libraries -- <a href="https://github.com/cs125-illinois/zen" target="_blank"><b>Zen</b></a> and 
-                <a href="https://github.com/cs125-illinois/mazemaker" target="_blank"><b>MazeMaker</b></a> via Gradle. 
-            </p>
-        </div>
+                    What-if Hypothetical Implementations in Minecraft (WHIMC) leverages Minecraft as a learning environment for learners to interactively explore the scientific
+                    consequences of alternative versions of Earth via "what if?" questions, such as "What if the earth had no moon?" or "What if the earth were twice its current size?"
+                    My role in this research group was creating plugins to aid in the collection of data.
+                    On top of this, I also managed the server files and the database that stored player data. 
+                </p>
+            </div>
+        </a>
+
+        <hr>
+
+        <!-- HelloLang -->
+        <a id="HelloLang">
+            <div class="jumbotron">
+                <h1>
+                    HelloLang 
+                    <a href="https://github.com/CS196Illinois/Hello_Lang" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a>
+                </h1>
+                <a href="images/HelloLangPic-big.png"><img src="images/HelloLangPic-small.png" alt="HelloLang Demo" class="hellolang-picture picture-shadow"></a>
+                <p class="lead">
+                    HelloLang a solution for language learners who need speaking practice.
+                    The app allows users to call native speakers and have a discussion about a topic of their choice, catered towards their speaking ability.
+                    I created the bulk of the Android part of the app and also designed the interfaces.
+                    My group partners designed the back end of the app and helped integrate key components of the app like app-to-app calling via a service called
+                    <a href="https://www.sinch.com/" target="blank_"><b>Sinch</b></a>.
+                </p>
+            </div>
+        </a>
         
         <hr>
 
+        <!-- Maze Solver -->
+        <a id="MazeSolver">
+            <div class="jumbotron">
+                <h1>
+                    Maze Solver 
+                    <a href="https://github.com/jackah2/MazeSolver" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a>
+                </h1>
+                <a href="images/MazeSolverPic-big.png"><img src="images/MazeSolverPic-small.png" alt="Maze Solver Demo" class="demo-picture picture-shadow"></a>
+                <p class="lead">
+                    Maze Solver is a Java application that displays a maze being solved using different solving algorithms.
+                    This program makes use of two libraries -- <a href="https://github.com/cs125-illinois/zen" target="_blank"><b>Zen</b></a> and 
+                    <a href="https://github.com/cs125-illinois/mazemaker" target="_blank"><b>MazeMaker</b></a> via Gradle. 
+                </p>
+            </div>
+        </a>
+
+        <hr>
+
         <!-- MLG Pacman -->
-        <div class="jumbotron">
-            <h1>MLG Pacman <a href="https://github.com/xMrPoi/MLG-Pics-Pls" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a></h1>
+        <a id="Pacman">
+            <div class="jumbotron">
+                <h1>
+                    MLG Pacman 
+                    <a href="https://github.com/xMrPoi/MLG-Pics-Pls" target="_blank" class="icon"><i class="fa fa-github-square icon"></i></a>
+                </h1>
                 <a href="images/MLGPacmanPic.png"><img src="images/MLGPacmanPic.png" alt="MLG Pacman Demo" class="demo-picture picture-shadow"></a>
-            <p class="lead">
-                MLG Pacman was a fun game a friend and I made during my sophomore year of high school.
-                The game is a modified version of Pacman that gets crazier as you play. I created the 
-                framework of the game as well as modified sound files to fit what's happening. 
-            </p>
-        </div>
+                <p class="lead">
+                    MLG Pacman was a fun game a friend and I made during my sophomore year of high school.
+                    The game is a modified version of Pacman that gets crazier as you play. I created the 
+                    framework of the game as well as modified sound files to fit what's happening. 
+                </p>
+            </div>
+        </a>
     </div>
 </body>
 </html>
